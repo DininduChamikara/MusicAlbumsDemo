@@ -171,13 +171,5 @@
     <PRICE>8.20</PRICE>
     <YEAR>1987</YEAR>
   </CD>
-  <CD>
-    <ID>1</ID>
-    <TITLE>test</TITLE>
-    <ARTIST>test</ARTIST>
-    <COUNTRY>test</COUNTRY>
-    <COMPANY>test</COMPANY>
-    <PRICE>40</PRICE>
-    <YEAR>2022</YEAR>
-  </CD>
+  
 </CATALOG>

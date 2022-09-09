@@ -11,14 +11,20 @@ include 'updateMongoDB.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
 </head>
 
 <body>
+
     <div class="container">
         <h1 class="page-header text-center">Most Popular Music Albums</h1>
         <div class="row">
+
             <div class="col-sm-8 col-sm-offset-2">
                 <a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
+
+                <a href="./searchView.php" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-search"></span> Search Albums</a>
+
                 <?php
                 session_start();
                 if (isset($_SESSION['message'])) {
@@ -40,7 +46,7 @@ include 'updateMongoDB.php';
                         <th>Company</th>
                         <th>Price</th>
                         <th>Year</th>
-                        <th>Action</th>
+                        <th style="width: 152px ;">Action</th>
                     </thead>
                     <tbody>
                         <?php
